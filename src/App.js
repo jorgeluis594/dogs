@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Find a Dog</h1>
+        <h1>Find a Dog today</h1>
         <select onChange={(e)=>{handleSelect(e)}}>
           <option value="">Select a Breed</option>
           {breeds.map((breed,idx) => {
