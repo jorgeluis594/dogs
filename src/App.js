@@ -23,7 +23,7 @@ function Dogs({dogs,loadDogs}){
 function App() {
   const [breeds, setBreeds] = useState([]);
   const [dogs, setDoogs] = useState([]);
-  const [loadDogs, setLoadDogs] = useState(true);
+  const [loadDogs, setLoadDogs] = useState(false);
 
   useEffect(()=>{
     const getBreeds = async () => {
